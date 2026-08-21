@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+Sinclair Community College CIS-1350
+Web Dev HTML & CSS
+Final Project Online Resume
+
+Randall Blades
+Author: Randall Blades
+Date: 23 June 2026
+
+Filename: final_contact.html
+-->
+
+<title>Randall Blades</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="Randall Blades, developer, online resume, your next hire"/>
+<link href="final_base.css" rel = "stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-------------------->
+    <!--Header with social media links and navigation menu-->
+    <!-------------------->
+
+      <header class="header">
+        <!--Social Media Links-->
+        <nav class="social-media">
+            <ul>
+                <li><a href="https://github.com/randallblades" target="_blank" class="icon-text"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/randall-blades/" target="_blank" class="icon-text"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a></li>
+                
+            </ul>
+        </nav><!--/.social-media-->
+
+        <!--Navigation Menu-->
+        <nav class="mainNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="final_resume.html">Resume</a></li>
+                <li><a href="final_projects.html">Projects</a></li>
+                <li><a href="final_skills.html">Skills</a></li>
+                <li><a href="final_contact.html">Contact Me</a></li>
+            </ul>
+        </nav><!--/.mainNav-->
+    </header><!--/.header-->
+
+
+    <!-------------------->
+    <!--Main content of contact page with contact form and sidebar highlights-->
+    <!-------------------->
+
+    <!--Main content container-->
+    <div class="main-container">
+    <!--Primary content area-->
+    <main class="main-content">
+      
+              <!--Hero Banner-->
+        <div class="connect-banner">
+            <h1>Let's Connect</h1>
+            </div> <!--/.connect-banner-->
+
+             <p>Whether you're reaching out about potential software development roles, logistics management opportunities, or just want to say hello, I'd love to hear from you!  Fill out the form below and I'll get back to you as soon as possible!</p>
+
+        <!--Form and Image-->
+        <div class="form-and-image">
+        
+    
+        <!--Contact Form-->
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+        <form id="contact-form" action="mailto:randall.blades@sinclair.edu" method="post">
+
+            
+            
+            <div class="form-group">
+                
+                <span class="radio-buttons">Reason for Contact:</span>
+                <div class="radio-group">
+                    <input type="radio" id="reason-job" name="reason" value="job" required>
+                    <label for="reason-job">Job Opportunity</label>
+
+            <input type="radio" id="reason-colab" name="reason" value="collaboration" required>
+            <label for="reason-colab">Collaboration</label>
+
+                    <input type="radio" id="reason-question" name="reason" value="question" required>
+                    <label for="reason-question">Question</label>
+                </div><!--/.radio-group-->
+            </div><!--/.form-group-->
+
+
+
+            <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            </div><!--/.form-group-->
+
+            <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            </div><!--/.form-group-->
+
+            <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            </div><!--/.form-group-->
+
+            <div class="form-group">
+            <span class="checkboxes">Areas of Interest:</span>
+            <div class="checkbox-group">
+
+            <input type="checkbox" id="web-dev" name="areas" value="web-dev">
+            <label for="web-dev">Web Development</label>
+            <input type="checkbox" id="software-dev" name="areas" value="software-dev">
+            <label for="software-dev">Software Development</label>
+            <input type="checkbox" id="operations-management" name="areas" value="operations-management">
+            <label for="operations-management">Operations Management</label>
+            </div><!--/.checkbox-group-->
+            </div><!--/.form-group-->
+            
+
+            <button type="submit">Send</button>
+            
+        </form><!--/#contact-form-->
+        </section><!--/.contact-form-->
+
+        <div class="headshot-container">
+                <img src="headshot.jpg" alt="Randall Blades Headshot" class="headshot-photo">
+            </div><!--/.headshot-container-->
+        </div><!--/.form-and-image-->
+    </main><!--/.contact-main-->
+
+
+
+        <!--Sidebar with contact information-->
+        <aside class="contact-sidebar">
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> randallblades@gmail.com</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/randall-blades/" target="_blank">linkedin.com/in/randall-blades</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/randallblades" target="_blank">github.com/randallblades</a></p>
+            </div><!--/.contact-info-->
+
+            <div class="contact-info">
+                <h2>Location</h2>
+                <p>Cincinnati, OH</p>
+            </div><!--/.contact-info-->
+
+       
+            
+        </aside><!--/.contact-sidebar-->
+
+    </div><!--/.main-container-->
+
+
+    <!--------------------->
+    <!--Footer with contact information-->
+    <!--------------------->
+     <footer>
+        <div><b>Randall Blades &#10035; randallblades@gmail.com &#10035; Cincinnati, OH</b></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+Sinclair Community College CIS-1350
+Web Dev HTML & CSS
+Final Project Online Resume
+
+Randall Blades
+Author: Randall Blades
+Date: 23 June 2026
+
+Filename: final_projects.html
+-->
+
+<title>Randall Blades</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="Randall Blades, developer, online resume, your next hire"/>
+<link href="final_base.css" rel = "stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-------------------->
+    <!--Header with social media links and navigation menu-->
+    <!-------------------->
+      <header class="header">
+        <!--Social Media Links-->
+        <nav class="social-media">
+            <ul>
+                <li><a href="https://github.com/randallblades" target="_blank" class="icon-text"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/randall-blades/" target="_blank" class="icon-text"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a></li>
+                
+            </ul>
+        </nav><!--/.social-media-->
+
+        <!--Navigation Menu-->
+        <nav class="mainNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="final_resume.html">Resume</a></li>
+                <li><a href="final_projects.html">Projects</a></li>
+                <li><a href="final_skills.html">Skills</a></li>
+                <li><a href="final_contact.html">Contact Me</a></li>
+            </ul>
+        </nav><!--/.mainNav-->
+    </header><!--/.header-->
+
+
+    <!-------------------->
+    <!--Main content of projects page with project walkthrough video, screenshots, and sidebar highlights-->
+    <!-------------------->
+
+        <!--Main content container-->
+        <div class="projects-container">
+            <!--Primary content area-->
+            <main class="main-content">
+            
+
+        <!--Hero Banner-->
+        <div class="project-banner">
+            <h1>NASA Meteorite Tracking Database</h1>
+            
+            </div>  <!--/.project-banner-->
+
+            <p>A Java application designed to parse, filter, and analyze NASA meteorite landing data. This project demonstrates intermediate object-oriented design patterns, JSON data handling, and an interactive user interface.</p>
+
+    <!--Project Walkthrough Video-->
+    <section class="project-video">
+        <h2>Project Walkthrough</h2>
+        <div class="walkthrough-video">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_f3xzT-JPaY?si=2i_j37MN0UPrr6cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div><!--/.walkthrough-video-->
+        </section><!--/.project-video-->
+
+        <!--Project Screenshots-->
+        <section class="project-screenshots">
+            <h2>Project Screenshots</h2>
+            <!--Screenshot Gallery-->
+            <div class="screenshot-gallery">
+                <figure>
+                    <img src="main-menu-nasa-project.jpg" alt="Screenshot of the main menu of the NASA Meteorite Tracking Database application">
+                    <figcaption>Main Menu</figcaption>
+                </figure>
+                <figure>
+                    <img src="filtering-options-nasa-project.jpg" alt="Screenshot of the filtering options in the NASA Meteorite Tracking Database application">
+                    <figcaption>Filtering Options</figcaption>
+                </figure>
+                <figure>
+                    <img src="search-results-nasa-project.jpg" alt="Screenshot of the search results in the NASA Meteorite Tracking Database application">
+                    <figcaption>Search Results</figcaption>
+                </figure>
+            </div><!--/.screenshot-gallery-->
+        </section><!--/.project-screenshots-->
+            
+</main><!--/.main-content-->
+
+        <!--Project Sidebar-->
+        <aside class="project-sidebar">
+            <!--Project Information-->
+            <div class="project-info">
+                <h2>Features</h2>
+            <!--Project Highlights-->
+            <ul class="project-highlights">
+                <li>
+                <strong>JSON Data Parsing: </strong>
+                <br>Dynamically reads and loads complex geographic and historical meteorite records from an external data source using Gson.
+            </li>
+                <li>
+                <strong>Interactive User Interface: </strong>
+                <br>A custom terminal-based user interface (UserInterface.java) that allows users to navigate, filter, and search through database records efficiently.
+            </li>
+                <li>
+                <strong>Geolocation & Data Modeling: </strong>
+                <br>Features robust class structures like Meteorite.java and Geolocation.java to handle coordinate and tracking logic cleanly.
+            </li>
+            </ul><!--/.project-highlights-->
+            </div><!--/.project-info-->
+
+            <!--Technologies Used-->
+            <div class="project-info">
+            <h2>Technologies Used</h2>
+            <!--Project Highlights-->
+            <ul class="project-highlights">
+                <li><strong>Language:</strong><br> Java</li>
+                <li><strong>Library:</strong><br> Google Gson Library for JSON Parsing</li>
+                <li><strong>Concepts:</strong><br> Object-Oriented Programming, File I/O, Data Modeling, Encapsulation, Text-based UI Design</li>
+            </ul><!--/.project-highlights-->
+            </div><!--/.project-info-->
+
+            <!--How to Run the Project-->
+            <div class="project-info">
+                <!--Instructions for Running the Project-->
+            <h2>How to Run the Project</h2>
+            <ol class="project-instructions">
+                <li>Clone or download the project repository from GitHub.</li>
+                <li>Ensure you have Java Development Kit (JDK) installed on your machine.</li>
+                <li>Compile the Java files using a terminal or command prompt.</li>
+                <li>Run the main class (e.g., Main.java) to start the application.</li>
+                <li>Follow the on-screen prompts to explore meteorite data.</li>
+            </ol><!--/.project-instructions-->
+            </div><!--/.project-info-->
+
+            <!--GitHub Repository Link-->
+            <div class="github-repo-link">
+                <a href="https://github.com/randallblades/Java_2_Final_Meteorites/tree/main" target="_blank" class="btn-github">
+                    <i class="fab fa-github"></i> View Project on GitHub
+                </a>
+            </div><!--/.github-repo-link-->
+        </aside><!--/.project-sidebar-->
+        </div><!--/.projects-container-->
+
+
+
+    <!--------------------->
+    <!--Footer with contact information-->
+    <!--------------------->
+     <footer>
+        <div><b>Randall Blades &#10035; randallblades@gmail.com &#10035; Cincinnati, OH</b></div>
+    </footer>
+</body>
+
+</html>
